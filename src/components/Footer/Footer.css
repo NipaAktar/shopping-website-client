@@ -1,0 +1,48 @@
+.footerDiv {
+  background-color: rgb(0, 0, 0);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 90px 100px;
+}
+
+.left-div p {
+  font-family: "Poppins";
+  color: white;
+  font-size: 25px;
+}
+
+.footer small {
+  color: white;
+  font-size: 20px;
+  color: gray;
+}
+
+.side-one {
+  color: white;
+}
+
+.side-one p {
+  font-size: 25px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.icons i {
+  background-color: #ebd96b;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  border-radius: 12px;
+}
